@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+  <bean id="Electronic" class="com.ecom.ecom.ElectronicsItem">
+      <constructor-arg name = "Name"  value="MOBILE" />
+      <constructor-arg name = "Type" value="ONEPLUS+" />
+    </bean>
+    <bean id="ram" class="com.ecom.ecom.ElectronicsItem">
+      <constructor-arg name = "Name"  value="LAPTOP" />
+      <constructor-arg name = "Type" value="APPLE" />
+    </bean> 
+  
+  
+  
+   <bean id="Clothing" class="com.ecom.ecom.Clothes">
+    <property name = "Name" value = "SHIRT" ></property>
+    <property name = "Type" value = "JOHN PLAYERS"></property>
+   </bean>
+   <bean id="raman" class="com.ecom.ecom.Clothes">
+    <property name = "Name" value = "PANT" ></property>
+    <property name = "Type" value = "NETPLAY"></property>
+   </bean>   
+        
+
+</beans>
